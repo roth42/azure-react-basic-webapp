@@ -1,8 +1,9 @@
 import React from 'react';
 
 function App() {
-  const value = 'World';
-  return <div>Hello {value}</div>;
+  return <div>
+      <a href="/.auth/login/aad">Login with Azure AD</a>
+    </div>;
 }
 
 export default App;
